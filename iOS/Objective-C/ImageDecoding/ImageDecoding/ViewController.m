@@ -35,7 +35,7 @@
     
     [self setUpUI];
     [self configurationDBR];
-    // hello
+    // hello something
 }
 
 - (void)setUpUI
