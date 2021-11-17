@@ -35,7 +35,7 @@
     
     [self setUpUI];
     [self configurationDBR];
-   
+    // hello
 }
 
 - (void)setUpUI
@@ -221,7 +221,6 @@
     sourceType = type;
     NSInteger cameragranted = [self AVAuthorizationStatusIsGranted];
     [selectPictureButton setEnabled:YES];
-    NSLog(@"相册权限：%ld",cameragranted);
     if (cameragranted == 0) {
         UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Tips"
                                                                                  message:@"Settings-Privacy-Camera/Album-Authorization"
